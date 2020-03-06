@@ -43,6 +43,10 @@ myFile.eachLine { line, lineNo ->
 println "$lineList"
 
 
+println myFile.isFile()		//	true
+	
+println myFile.isDirectory()	//	false
+
 
 
 
